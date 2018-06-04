@@ -4,6 +4,11 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+@font-face {
+    font-family: ExodusDemo;
+    src: url(/font/ExodusDemo-Stencil.otf) format("opentype")
+}
+
 html, body  {
     margin: 0;
     padding: 0;
@@ -96,8 +101,8 @@ body {
     width: 100px;
     margin: 0;
     
-    font-family: 'ExodusDemo-Stencil', fantasy;
-    
+    font-family: 'ExodusDemo';
+    font-weight: 100;
     font-size: 2.5em;
     line-height: 1.5em;
     
