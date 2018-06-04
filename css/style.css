@@ -163,7 +163,7 @@ main {
     justify-content: center;
     flex-direction: row;
     
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .contentWrapperRight {
@@ -174,7 +174,7 @@ main {
     
     
     align-content: flex-end;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     
 }
 
@@ -184,7 +184,7 @@ main {
     
     width: 40%;
     
-    border: 3px solid white;
+    /* border: 3px solid white; */
 }
 
 .who {
@@ -269,7 +269,7 @@ main {
     display: flex;
     justify-content: center;
     
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .contentMargins {
@@ -277,7 +277,7 @@ main {
     margin: 0 auto;
     
     
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
 }
 
 .paragraphMiddle {
@@ -291,7 +291,6 @@ main {
     text-align: left;
     
     color: #b3b3b3;
-    
 }
 
 
