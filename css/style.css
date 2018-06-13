@@ -88,6 +88,17 @@ body {
     padding: 0 20px;
 }
 
+a:hover {
+    animation-name: Linkanimation;
+    animation-duration: 2s;
+    
+    border-bottom: 2px solid #050505;
+}
+
+@keyframes Linkanimation {
+    
+}
+
 .quoteWrapper {
     margin: 0;
     margin-left: -32px;
@@ -547,7 +558,7 @@ main {
         }
 
         .dot {
-            margin-left: 41.9%;
+            margin-left: 42%;
         }
 
         .line {
@@ -1027,7 +1038,17 @@ footer {
 }
 
 
-
+@media screen and (max-width: 800px) {
+    body {
+    display: none;
+    
+}
+    * {
+        background-image: url(/img/none.gif);
+        background-repeat: no-repeat;
+    }
+    
+}
 
 
 
