@@ -929,12 +929,20 @@ button:hover {
     background-color: #ccc;
 }
 
+.imgWrapper2:hover .projectDetailsbg {
+    opacity: 1;
+}
+
 .projectDetailsbg {
+    
     height: 100%;
     
     background-color: #00000070;
     color: #fff;
     border: 2px solid red;
+    
+    opacity: 0;
+    transition: opacity 300ms ease-in;
 }
 
 .projectDetails {
@@ -950,6 +958,10 @@ button:hover {
     
     width: 100%;
     height: 400px;
+}
+
+.imgWrapper2:hover {
+    
 }
 
 .contactWrapper {
