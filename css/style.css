@@ -19,7 +19,6 @@
 html, body  {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 
@@ -36,10 +35,15 @@ body {
     background-color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-device-width: 667px) {
   body {
-    width: 100%;
+    width: 111.5%;
   }
+    
+    .wrapper {
+    width: 100%;
+    height: 55vh;
+}
 }
 
 .nav {
@@ -161,18 +165,16 @@ a {
     color: #808080;
 }
 
-@media screen and (max-width: 700px) {
+.alignRight {
+    text-align: right;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 667px) {
       .quoteWrapper {
-            margin: 0;
-            margin-left: -72px;
-            padding: 0;
+            margin-left: -60px;
 
-            position: absolute;
-
-            top: 12%;
-
-            width: 64%;
-            height: 60vh;
+            top: 18%;
 
 }
         .stevejobsimg {
@@ -184,20 +186,18 @@ a {
             position: relative;
             z-index: 0;
 }
+        .quote {
+            font-size: 2em;
+            line-height: 1.5em;
+}
         .quoteSide {
-            margin: 0;
             margin-top: -72%;
             margin-left: 85%;
-            width: 200px;
-            position: absolute;
             z-index: 2;
-
-            color: #808080;
 }
     
         .videoLink {
-            margin: 0;
-            margin-top: 10px;
+            margin-top: 15px;
 }
   
 }
@@ -251,15 +251,16 @@ main {
     
     /* border: 3px solid white; */
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 667px) {
             main {
             width: 100%;
             height: auto;
-            margin-top: -49%;
+            margin-top: 0;
     
 }
     
             .mainWrapper {
+            width: 111.5%;
             justify-content: flex-start;
 }
             .bodyWrapper {
@@ -274,9 +275,11 @@ main {
         .contentWrapperRight {
             width: 50%;
             align-content: flex-end;
+            margin-right: -4px;
 }
 
         .contentWrapperLeft {
+            margin-top: 120px;
             width: 50%;
 }
     
@@ -303,7 +306,7 @@ main {
     letter-spacing: .5em;
     
     transform: rotate(90deg);
-    color: #1a1a1a;
+    color: #333;
 }
 
 .who {
@@ -350,13 +353,20 @@ main {
     
     width: 100%;
     
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 21px;
     text-align: left;
     
     color: #b3b3b3;
     
+}
+
+.paragraphRight {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 21px;
 }
 
 .sideheadings {
@@ -404,7 +414,7 @@ main {
     
     width: 100%;
     
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 21px;
     text-align: left;
@@ -508,80 +518,92 @@ main {
     margin-bottom: 43%;
 }
 
-@media screen and (max-width: 700px) {
-            .who {
-            margin-left: 170px;
+@media screen and (max-width: 667px) {
+        .sectionHeading {
+            margin-left: 25px;
+        }
+        .who {
+            margin-left: 120px;
             text-align: left;
+}
+        .nameRotate {
+            margin-top: 50px;
+            margin-left: -94px;
+
+            font-size: .9em;
+            font-weight: bold;
+            letter-spacing: .5em;
 }
 
         .paragraph {
-            width: 90%;
+            width: 85%;
 
             font-size: 14px;
             line-height: 24px;
 
-        }
+}
 
         .profilePic {
             margin-top: 140px;
             margin-left: 14.6%;
 
             width: 75%;
-        }
+}
 
         .details {
-            margin-top: 100px;
+            margin-top: 90px;
 
-        }
+}
 
         .paragraphLeft {    
-            width: 130%;
+            width: 150%;
 
             font-size: 14px;
             font-weight: 100;
             line-height: 24px;
-        }
+}
 
         .sideheadings {
             font-size: 16px;
-        }
+}
 
         .contentAlignLeft {
             margin: 0;
             margin-left: 15%;
-        }
+}
 
         .marginTop {
             margin-top: 80px;
-        }
+}
 
         .ObjectiveMarginTop {
-            margin-top: 340px;
-        }
+            margin-top: 300px;
+            margin-left: -40%;
+}
 
         .contentWrapperMiddle {
             width: 100%;
-        }
+}
 
         .contentMargins {
             width: 85%;
             margin: 0 auto;
-        }
+}
 
         .paragraphMiddle {
             width: 100%;
 
             font-size: 14px;
             line-height: 24px;
-        }
+}
 
         .dot {
-            margin-left: 42%;
-        }
+            margin-left: 46%;
+}
 
         .line {
-            margin-left: 42.3%;
-        }
+            margin-left: 46.4%;
+}
 
 
 .educationLeft {
@@ -784,8 +806,8 @@ main {
     margin: 0 auto;
     margin-bottom: 70px;
     
-    width: 45%;
-    font-size: 12px;
+    width: 55%;
+    font-size: 14px;
     font-weight: 100;
     line-height: 21px;
     text-align: center;
@@ -813,7 +835,15 @@ main {
 .pathRight {
     width: 45%;
     height: 200px;
-    margin-top: 35%;
+    margin-top: 250px;
+}
+
+.pathMagintop {
+    padding-top: 65px;
+}
+
+.pathMagintop2 {
+    padding-top: 65px;
 }
 
 .PathSideheadings {
@@ -823,6 +853,16 @@ main {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.PathSideheadingsRight {
+     margin-right: -88%;
+     margin-bottom: 10px;
+
+     font-weight: 400;
+     text-transform: uppercase;
+     text-align: left;
+}
+
 
 .PathcontentAlignLeft {
     margin: 0;
@@ -840,7 +880,7 @@ main {
     margin: 0 auto;
     
     position: relative;
-    top: 2450px;
+    top: 2650px;
     border-radius: .5%;
     
     display: flex;
@@ -961,6 +1001,130 @@ button:hover {
 }
 
 .imgWrapper2:hover {
+    
+}
+
+@media screen and (max-device-width: 667px) {
+        .wrapperWhite {
+            width: 100%;
+            height: 1400px;
+            
+            margin-left: 25px;
+            
+            top: 1300px;
+}
+        .sectionHeading2 {
+            margin-left: -10%;
+    }
+    
+       .quoteBlack {
+            width: 280px;
+            margin-left: -25px;
+            margin-top: 30%;
+            font-size: 2em;
+}
+
+        .logo2 {
+            width: 200px;
+            margin-top: 40px;
+}
+        .quoteSide2 {
+            position: absolute;
+            width: 100%;
+            margin: 0;
+            margin-top: 100%;
+            text-align: center;
+}
+        .headingMiddle {
+            margin-top: 200px;
+            letter-spacing: .6em;
+}
+        .ServicesWrapper {
+            width: 100%;
+            height: 400px;
+
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            flex-wrap: nowrap;
+}
+
+        .serviceBox {
+            width: 100%;
+            height: 15%;
+            padding: 6%;
+            margin-bottom: 10px;
+
+            border-radius: 3px 3px 3px 3px;
+
+            font-size: 16px;
+}
+    
+        .headingsLetterspace {
+            letter-spacing: 1em;
+}
+
+        .paragraphPath {
+            width: 100%;
+            font-size: 14px;
+}
+
+        .innerPathwrapper {
+            width: 100%;
+            margin-top: 100px;
+            margin-left: -50px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            flex-wrap: wrap;    
+}
+
+        .pathLeft {
+            width: 70%;
+}
+    
+        .paragraphRight {    
+            width: 130%;
+            margin-left: 60%;
+            text-align: right;
+            font-size: 14px;
+            font-weight: 100;
+            line-height: 24px;
+            color: #b3b3b3;
+}
+
+        .pathRight {
+            width: 70%;
+            height: 200px;
+            margin-top: 5%;
+            margin-bottom: 25%;
+}
+
+        .PathSideheadings {
+            margin: 0;
+            margin-bottom: 10px;
+
+            font-weight: 400;
+            text-transform: uppercase;
+}
+        .PathSideheadingsRight {
+            margin-right: -88%;
+            margin-bottom: 5px;
+
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: right;
+}
+
+.PathcontentAlignLeft {
+    margin: 0;
+} 
+
+.lineHeight {
+    font-weight: 700;
+    line-height: 3em;
+}
+
     
 }
 
@@ -1089,20 +1253,6 @@ footer {
     text-align: center;
     text-transform: uppercase;
 }
-
-
-@media screen and (max-width: 800px) {
-    body {
-    display: none;
-    
-}
-    * {
-        background-image: url(/img/none.gif);
-        background-repeat: no-repeat;
-    }
-    
-}
-
 
 
 
