@@ -1142,18 +1142,37 @@ button:hover {
     height: 400px;
 }
 
+.images {
+    position: absolute;
+    margin: 0;
+    margin-left: -5%;
+    top: 60%;
+}
+
+.images2 {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 3%;
+}
+
+.images3 {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
 .imgWrapper1 {
     width: 32%;
     height: 70%;
 
-    background-color: #ccc;
+    background-color: #f5f5f5;
 }
 
 .imgWrapper2 {
     width: 32%;
     height: 100%;
 
-    background-color: #ccc;
+    background-color: #f5f5f5;
 }
 
 .imgWrapper3 {
@@ -1161,26 +1180,45 @@ button:hover {
     width: 32%;
     height: 100%;
 
-    background-color: #ccc;
+    background-color: #f5f5f5;
 }
 
 .imgWrapper2:hover .projectDetailsbg {
     opacity: 1;
 }
 
+.imgWrapper1:hover .projectDetailsbg {
+    opacity: 1;
+}
+
+.imgWrapper3:hover .projectDetailsbg {
+    opacity: 1;
+}
+
+.marginTop2 {
+    margin-top: 40%;
+}
+
+.marginTop3 {
+    margin-top: 6%;
+}
+
 .projectDetailsbg {    
     height: 100%;
+    position: relative;
     
-    background-color: #00000070;
+    background-color: #00000090;
     color: #fff;
-    border: 1px solid #00000070;
+    border: 1px solid #00000090;
     
     opacity: 0;
     transition: opacity 300ms ease-in;
+    
 }
 
 .projectDetails {
     margin: 30px;
+    margin-top: 20%;
 }
 
 .worksCollageWrapper {
