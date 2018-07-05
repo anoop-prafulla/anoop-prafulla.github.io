@@ -389,26 +389,24 @@ h6 {
     
         .showcase_wrapper {
             margin: 0;
-            margin-left: -32px;
             padding: 0;
 
             top: 20%;
-            left: 20%;
-
-            width: 100%;
             height: auto;
 }
 
 
         .showcase_innerwrap {
             margin: auto;
-            width: 100%;
-            min-height: 96%;
-
+            max-width: 100%;
+            height: auto;
             position: relative;
-
             display: grid;
-            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+}
+        .showcase_details1 {
+            width: 95%;
+            margin-left: -9%;
 }
     
         .showcase_details2 {
@@ -420,12 +418,19 @@ h6 {
 }
 
         .negative_margins {
+            margin-top: 0;
             background-color: #050505;
             color: #fff;
 }
         
 
-
+        .showcase_details2 {
+            padding: 10px;
+            max-height: 750px;
+            display: grid;
+            grid-template-rows: 250px 250px 250px;
+            grid-row-gap: 10px;
+}
 
 
 
