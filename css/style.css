@@ -33,7 +33,11 @@ body {
 
 .wrapper {
     width: 100%;
+<<<<<<< HEAD
     height: 75vh;
+=======
+    height: 60vh;
+>>>>>>> 7824d01794322b115afac1fc384f8e20b57d688c
     
     display: flex;
     justify-content: center;
@@ -1626,7 +1630,7 @@ footer {
 @media screen and (max-device-width: 667px) {
         footer {
             margin-top: 8860px;
-            width: 100%;
+            width: 80%;
             height: 300px;
             display: flex;
             flex-direction: column;
