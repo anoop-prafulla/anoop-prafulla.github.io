@@ -33,8 +33,7 @@ body {
 
 .wrapper {
     width: 100%;
-    height: 75vh;
-    height: 60vh;
+    height: 65vh;
     
     display: flex;
     justify-content: center;
@@ -517,6 +516,7 @@ main {
 
 .who {
     margin: 0;
+    margin-top: 30px;
     font-family: 'ExodusDemo';
     font-size: 32px;
     font-weight: 100;
@@ -539,7 +539,7 @@ main {
 
 .profilePic {
     margin: 0;
-    margin-top: 80px;
+    margin-top: 165px;
     margin-left: 50.6%;
     
     width: 50%;
@@ -721,7 +721,7 @@ main {
     margin-bottom: 150px;
 }
 .educationMarginBottomRight {
-    margin-bottom: 43%;
+    margin-bottom: 52%;
 }
 
 @media screen and (max-width: 667px) {
@@ -742,7 +742,7 @@ main {
 }
 
         .paragraph {
-            width: 85%;
+            width: 95%;
 
             font-size: 14px;
             line-height: 24px;
@@ -750,7 +750,7 @@ main {
 }
 
         .profilePic {
-            margin-top: 140px;
+            margin-top: 180px;
             margin-left: 14.6%;
 
             width: 75%;
@@ -1081,7 +1081,7 @@ main {
 
 .wrapperWhite2 {
     width: 90%;
-    height: 1080px;
+    height: 740px;
     
     margin: 0 auto;
     
@@ -1378,7 +1378,7 @@ button:hover {
         .wrapperWhite2 {
             
             width: 100%;
-            height: 2260px;
+            height: 680px;
             border-radius: 6px 6px 6px 6px;
             position: relative;
             top: 2720px;
@@ -1390,6 +1390,7 @@ button:hover {
 
             background-color: #fff;
 }
+    
     
         .margintopHeading {
             margin-top: 40px;
@@ -1525,7 +1526,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.containerContact {
     border-radius: 5px;
     background-color: #050505;
 }
@@ -1557,7 +1558,7 @@ input[type=submit]:hover {
 
 @media screen and (max-device-width: 667px) {
          .contactWrapper {
-            margin-top: 2300px;
+            margin-top: 740px;
             color: #fff;
 }
 
@@ -1626,8 +1627,8 @@ footer {
 
 @media screen and (max-device-width: 667px) {
         footer {
-            margin-top: 8860px;
-            width: 80%;
+            margin-top: 7340px;
+            width: 100%;
             height: 300px;
             display: flex;
             flex-direction: column;

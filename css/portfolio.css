@@ -421,10 +421,8 @@ h6 {
 
         .negative_margins {
             margin-top: 0;
-<<<<<<< HEAD
+
             width: 106%;
-=======
->>>>>>> 7824d01794322b115afac1fc384f8e20b57d688c
             background-color: #050505;
             color: #fff;
 }
@@ -435,16 +433,12 @@ h6 {
 
         .showcase_details2 {
             padding: 10px;
-<<<<<<< HEAD
             width: 106%;
-=======
->>>>>>> 7824d01794322b115afac1fc384f8e20b57d688c
             max-height: 750px;
             display: grid;
             grid-template-rows: 250px 250px 250px;
             grid-row-gap: 10px;
 }
-<<<<<<< HEAD
 
         p {
             margin: 0;
@@ -454,8 +448,6 @@ h6 {
             font-weight: 300;
             text-align: left;
 }
-=======
->>>>>>> 7824d01794322b115afac1fc384f8e20b57d688c
 
         h6 {
             margin: 0;
