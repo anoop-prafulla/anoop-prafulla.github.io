@@ -362,6 +362,10 @@ h6 {
     margin-top: 30px;
 }
 
+.margin_top2 {
+    margin-top: 60px;
+}
+
 .contentwrapper {
     margin: 0;
     padding: 20px;
@@ -376,7 +380,7 @@ h6 {
     max-height: 750px;
     display: grid;
     grid-template-rows: 250px 250px 250px;
-    grid-row-gap: 10px;
+    grid-row-gap: 50px;
     overflow: scroll;
 }
 
