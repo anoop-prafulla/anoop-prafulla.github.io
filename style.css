@@ -12,38 +12,16 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-@font-face {
-  font-family: 'ExodusDemo-Regular';
-  src: url('font/ExodusDemo-Regular.eot');
-  src: url('font/ExodusDemo-Regular.eot?#iefix') format('embedded-opentype'),
-       url('font/ExodusDemo-Regular.svg#ExodusDemo-Regular') format('svg'),
-       url('font/ExodusDemo-Regular.ttf') format('truetype'),
-       url('font/ExodusDemo-Regular.woff') format('woff'),
-       url('font/ExodusDemo-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
-  font-family: 'ExodusDemo-Stencil';
-  src: url('font/ExodusDemo-Stencil.eot');
-  src: url('font/ExodusDemo-Stencil.eot?#iefix') format('embedded-opentype'),
-       url('font/ExodusDemo-Stencil.svg#ExodusDemo-Stencil') format('svg'),
-       url('font/ExodusDemo-Stencil.ttf') format('truetype'),
-       url('font/ExodusDemo-Stencil.woff') format('woff'),
-       url('font/ExodusDemo-Stencil.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ExodusDemo-Sa';
-  src: url('font/ExodusDemo-Sa.eot');
-  src: url('font/ExodusDemo-Sa.eot?#iefix') format('embedded-opentype'),
-       url('font/ExodusDemo-Sa.svg#ExodusDemo-Sa') format('svg'),
-       url('font/ExodusDemo-Sa.ttf') format('truetype'),
-       url('font/ExodusDemo-Sa.woff') format('woff'),
-       url('font/ExodusDemo-Sa.woff2') format('woff2');
+  font-family: "ExodusDemo-Sa";
+  src: url("./fonts/ExodusDemo-Sa.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/ExodusDemo-Sa.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/ExodusDemo-Sa.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/ExodusDemo-Sa.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/ExodusDemo-Sa.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/ExodusDemo-Sa.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/ExodusDemo-Sa.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
