@@ -49,11 +49,14 @@
 }
 
 @font-face {
-  font-family: 'DreamOnly';
-  src: url('font/DreamOnly.woff') format('woff'),
-       url('font/DreamOnly.eot?#iefix') format('embedded-opentype'),
-       url('font/DreamOnly.svg#ExodusDemo-Sa') format('svg'),
-       url('font/DreamOnly.ttf') format('truetype'),
+  font-family: "DreamOnly";
+  src: url("./fonts/DreamOnly.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/DreamOnly.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/DreamOnly.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/DreamOnly.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/DreamOnly.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/DreamOnly.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/DreamOnly.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
