@@ -51,10 +51,10 @@
 @font-face {
   font-family: 'DreamOnly';
   src: url('font/DreamOnly.eot');
-  src: url('font/DreamOnly.eot?#iefix') format('embedded-opentype'),
+  src: url('font/DreamOnly.woff') format('woff'),
+       url('font/DreamOnly.eot?#iefix') format('embedded-opentype'),
        url('font/DreamOnly.svg#ExodusDemo-Sa') format('svg'),
        url('font/DreamOnly.ttf') format('truetype'),
-       url('font/DreamOnly.woff') format('woff'),
   font-weight: normal;
   font-style: normal;
 }
