@@ -1206,13 +1206,9 @@ i {
 
 @media (max-width: 620px) and (max-width: 1150px) {
     
-    .about_me {
     
-    background-color: #000;
-    background-image: url(img/anoop-prafulla.png) !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 95% 50%;
+    .about_me {
+    background-position: 95% 50% !important;
 }
     
     .item {
