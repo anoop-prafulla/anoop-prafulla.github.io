@@ -1205,6 +1205,14 @@ i {
 
 @media (max-width: 620px) and (max-width: 1150px) {
     
+    .margin_40 {
+            margin-top: -40px !important;
+    }
+    
+    .margin_40_2 {
+            margin-top: -20px !important;
+    }
+    
     
     .about_me {
     background-position: 95% 50% !important;
