@@ -670,12 +670,11 @@ button:hover .arrow1 {
     height: 100vh;
     
     margin: 0;
+
     
-    background-color: #000;
-    background-image: url(img/anoop-prafulla.png);
+    background-image: url(img/menu-image.png) !important;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 95% 50%;
+    background-position: 75% 50%;
     background-size: cover;
     
     display: flex;
@@ -1208,7 +1207,7 @@ i {
     
     
     .about_me {
-    background-position: 125% 50% !important;
+    background-position: 95% 50% !important;
 }
     
     .item {
