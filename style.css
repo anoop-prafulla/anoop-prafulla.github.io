@@ -1207,7 +1207,7 @@ i {
 @media (max-width: 620px) and (max-width: 1150px) {
     
     .item {
-        margin-bottom: 200px;
+        padding-bottom: 200px;
     }
     
     .sign h3 {
